@@ -1,0 +1,33 @@
+node_modules
+.env
+.env.local
+.env.*.local
+coverage
+coverage.json
+typechain
+typechain-types
+
+# Hardhat files
+cache
+artifacts
+
+# TypeScript
+*.tsbuildinfo
+
+# Build outputs
+dist
+build
+
+# Hardhat vars (secrets)
+.hardhat
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
